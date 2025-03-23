@@ -12,6 +12,9 @@ void bubble_sort_asc(int* array,int size) {
 				flag = false;
 
 			}
+			if (flag == true) {
+				break;
+			}
 		}
 	}
 }
